@@ -85,6 +85,22 @@ Developed by Google
     b. This is to ensure we don't suffer any  database loss and we also need to maintain the data state.
 
 
+# Minikube and Kubectl
+
+## Minikube
+
+1. Minikube is the single node K8s cluster with master and worker process running in the same node.
+2. Used for devlopement and testing environment.
+3. Virtualization should be enabled in order to use Minikube cluster.
+4. Can use hypervisor like hyperkit for minikube.
+
+## Kubectl
+1. Kubectl is the command line interface to interact with Kubernetes cluster.
+2. Kubectl can be used to interact with minikube as well as remote production cluster.
+
+
+
+
 
 
 
