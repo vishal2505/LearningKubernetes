@@ -34,11 +34,12 @@ nodePort must be between 30000-32767. This is the port for external IP address a
 
 minikube service mongo-express-service
 
-|-----------|-----------------------|-------------|---------------------------|
+
 | NAMESPACE |         NAME          | TARGET PORT |            URL            |
-|-----------|-----------------------|-------------|---------------------------|
+|||||
 | default   | mongo-express-service |        8081 | http://192.168.64.2:30000 |
-|-----------|-----------------------|-------------|---------------------------|
+|||||
+
 🎉  Opening service default/mongo-express-service in default browser...
 
 ## All Commands in order
@@ -65,5 +66,5 @@ minikube service mongo-express-service
 
 ## Screenshots
 
-<img src="../images/mongo_express_app.png">
+<img src="../images/mogo_express_app.png">
 
