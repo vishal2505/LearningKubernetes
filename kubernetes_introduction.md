@@ -84,6 +84,7 @@ Developed by Google
 
     b. This is to ensure we don't suffer any  database loss and we also need to maintain the data state.
 
+<img src="images/layer_of_abs.png">
 
 # Minikube and Kubectl
 
@@ -97,6 +98,7 @@ Developed by Google
 ## Kubectl
 1. Kubectl is the command line interface to interact with Kubernetes cluster.
 2. Kubectl can be used to interact with minikube as well as remote production cluster.
+
 
 
 # YAML Configuration files
