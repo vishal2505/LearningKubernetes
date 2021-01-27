@@ -2,14 +2,14 @@
 
 1. Structure your components
 2. Avoid conflicts between team
-3. Share servicesbetrween different environments
+3. Share services between different environments
 4. Access and Resource Limits on Namespaces Level
 
 # Characteristics of Namespaces
 
-1. You cant access most resources from another Namespace.
+1. You can't access most resources from another Namespace.
 2. Resources can reference service from another namespace example - databases.
-3. Volumne and node doesn't reside in Namespace.
+3. Volume and node doesn't reside in Namespace.
 
 # Creating component in a Namespace
 
