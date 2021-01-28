@@ -34,3 +34,9 @@ help install <chartname>
 
 helm install --values=my-value.yaml <chartname>
 ```
+
+## Useful links
+
+- Helm hub: https://artifacthub.io/
+- Helm charts GitHub Project: https://github.com/helm/charts
+- Install Helm: https://helm.sh/docs/intro/install/
