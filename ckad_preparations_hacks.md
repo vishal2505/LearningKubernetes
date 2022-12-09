@@ -1,6 +1,6 @@
 ### .bashrc file update
 
-**Update the below in the .bashrc file and then run . .bashrc
+Update the below in the .bashrc file and then run . .bashrc
 
 ```
 alias k=kubectl                         # will already be pre-configured
@@ -13,7 +13,7 @@ export do="--dry-run=client -o yaml"    # k create deploy nginx --image=nginx $d
 export now="--force --grace-period 0"   # k delete pod x $now
 ```
 
-**Run a temporaray pod and check service status
+Run a temporaray pod and check service status
 ```
 kubectl run temp --image=nginx:alpine --restart=Never --rm -it -- curl <service>.<namespace>:<port>
 
